@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#top-header {
+    background-color: #00796B;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #009688;
+}
+
+#social a {
+    color: #fff;
+}
+
+#middle-header {
+    background-color: #009688;
+}
+
+#btnOne {
+    border-radius: 20px;
+}
+
+#btnTwo {
+    border-radius: 20px;
+}
+
+
+#logo a {
+    font-size: 50px;
+    color: #00BCD4;
+}
+
+#heading h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+#sinput {
+    border-radius: 20px;
+}
+
+#sbtn {
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.nav a {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#middle {
+    border: 1px solid #E8E3DD;
+}
+
+.col-md-6.m-section-one {
+    background: #F6F1EB;
+    opacity: 0.5;
+    margin: 0 !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-6.m-section-two {
+    margin: 0 !important;
+    background-color: #B2DFDB;
+}
+
+.box-one,
+.box-two,
+.box-three {
+    margin-top: 30%;
+}
+
+.learn-btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #000;
+}
+
+#scom {
+    border-radius: 20px;
+
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid #000;
+}
+
+table {
+    border-radius: 5px !important;
+}
+
+#getCompanies {
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+
+#copyright {
+    width: 100% !important;
+    height: 10vh;
+    background-color: #374046;
+    font-weight: bold;
+}
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
